@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  font-size: 24px;
+}
+
+h1 {
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding: 2rem;
+}
+
+.additem {
+  text-align: center;
+}
+
+.additem__input > label {
+  display: block;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.additem__input > input {
+  display: inline-block;
+  width: 300px;
+  height: 3vh;
+  border-radius: 0.5em;
+  border: black solid 1px;
+  padding: 1rem;
+}
+
+.additem__submit,
+.done,
+.erase {
+  margin-top: 1rem;
+  border: none;
+  padding: 0.75em 1em;
+  background-color: #000;
+  color: #fff;
+  border-radius: 0.5em;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.done {
+  background-color: darkgreen;
+}
+
+.erase {
+  background-color: darkred;
+}
+.list {
+  margin-top: 3rem;
+  text-align: center;
+}
