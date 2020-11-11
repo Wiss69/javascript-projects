@@ -6,3 +6,4 @@ Mini-projects made with JS and HTML/CSS
 ## Note-aker
 ## To-do app
 ## Vowel counter
+## Memory-game
